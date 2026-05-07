@@ -34,22 +34,27 @@ El diseño está pensado para el apoyo en terapias de rehabilitación cognitiva 
 
 ### 4. Identificación de Nombres
 - Basado en la **orientación a la realidad**.
-- Permite añadir etiquetas personalizadas sobre las imágenes (ej: nombres de familiares, mascotas o lugares).
-- Ayuda a reforzar el reconocimiento de personas y objetos significativos del entorno cercano del paciente.
+- Permite añadir etiquetas personalizadas sobre las imágenes (ej: nombres de familiares o mascotas).
+- Refuerza el reconocimiento de personas y objetos significativos del entorno.
 
 ### 5. Preguntas y Respuestas
 - Estimulación de la **memoria semántica y razonamiento**.
-- Carga de imágenes con cuestionarios asociados.
-- El usuario responde preguntas sobre la imagen visualizada, trabajando la comprensión y el recuerdo de detalles.
+- El usuario responde preguntas asociadas a imágenes personalizadas, trabajando la comprensión y el recuerdo.
+
+### 6. Puzles Dinámicos 🆕
+- **Estimulación visoconstructiva:** Cada imagen añadida a la galería se convierte automáticamente en un puzle interactivo.
+- **Dificultad Incremental:** El número de piezas aumenta progresivamente en función de la dificultad seleccionada o el progreso del usuario.
+- **Entrenamiento:** Mejora la capacidad de planificación, organización espacial y coordinación óculo-manual.
 
 ---
 
 ## 🛠️ Herramientas de Creación y Edición
 
 La app destaca por su capacidad de personalización para terapeutas y familiares:
-- **Editor de Diferencias:** Marcado manual de áreas táctiles sobre imágenes.
-- **Etiquetado de Nombres:** Interfaz para asociar nombres específicos a rostros u objetos.
-- **Configurador de Preguntas:** Sistema para vincular retos intelectuales a cada imagen personalizada.
+- **Editor de Diferencias:** Marcado manual de áreas táctiles.
+- **Etiquetado de Nombres:** Interfaz para asociar nombres a rostros u objetos.
+- **Configurador de Preguntas:** Sistema para vincular retos intelectuales a cada imagen.
+- **Generador de Puzles:** Algoritmo de fragmentación automática basado en las imágenes del usuario.
 
 ---
 
@@ -65,7 +70,7 @@ La app destaca por su capacidad de personalización para terapeutas y familiares
 
 - **Kotlin** & **Jetpack Compose** (UI moderna y reactiva).
 - **Coil:** Gestión eficiente de carga de imágenes.
-- **Canvas API:** Dibujo de elementos gráficos dinámicos y áreas de colisión.
+- **Canvas API:** Dibujo de elementos gráficos y lógica de puzles/diferencias.
 - **Navigation Compose:** Gestión de flujos entre los diferentes modos de juego.
 
 ---
