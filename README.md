@@ -41,7 +41,7 @@ El diseño está pensado para el apoyo en terapias de rehabilitación cognitiva 
 - Estimulación de la **memoria semántica y razonamiento**.
 - El usuario responde preguntas asociadas a imágenes personalizadas, trabajando la comprensión y el recuerdo.
 
-### 6. Puzles Dinámicos 🆕
+### 6. Puzles Dinámicos
 - **Estimulación visoconstructiva:** Cada imagen añadida a la galería se convierte automáticamente en un puzle interactivo.
 - **Dificultad Incremental:** El número de piezas aumenta progresivamente en función de la dificultad seleccionada o el progreso del usuario.
 - **Entrenamiento:** Mejora la capacidad de planificación, organización espacial y coordinación óculo-manual.
