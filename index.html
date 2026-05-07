@@ -119,19 +119,82 @@
 </header>
 
 <div class="container">
-    <div class="app-card">
-        <div class="app-icon">🧠</div>
-        <div style="flex: 1; min-width: 280px;">
-            <h2 style="border:none; margin:0;">Neuron Vital</h2>
-            <p>Estimulación cognitiva profesional: Memory, Diferencias y Puzzles. Diseñada para la accesibilidad en pacientes con Alzheimer y Parkinson.</p>
-            <a href="#" class="btn">Próximamente en Play Store</a>
+    <style>
+    .app-card {
+        background: white;
+        border-radius: 20px;
+        padding: 3rem; /* Más aire */
+        margin-top: -70px;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.15); /* Sombra más profunda */
+        border: 1px solid rgba(37, 99, 235, 0.1);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: center;
+        transition: transform 0.3s ease;
+    }
+
+    .app-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .app-description {
+        font-size: 1.1rem;
+        line-height: 1.7;
+        color: #475569;
+    }
+
+    .highlight {
+        color: var(--primary);
+        font-weight: 600;
+    }
+
+    .badge-container {
+        margin-top: 15px;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .badge {
+        background: #eff6ff;
+        color: var(--primary);
+        padding: 4px 12px;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-weight: bold;
+        border: 1px solid #dbeafe;
+    }
+</style>
+
+<div class="app-card">
+    <div class="app-icon" style="width: 130px; height: 130px; font-size: 3.5rem;">🧠</div>
+    <div style="flex: 1; min-width: 300px;">
+        <h2 style="border:none; margin:0; font-size: 2.2rem; color: var(--dark);">Neuron Vital</h2>
+        
+        <div class="badge-container">
+            <span class="badge">Estimulación Cognitiva</span>
+            <span class="badge">Accesibilidad</span>
+            <span class="badge">Personalizable</span>
         </div>
+
+        <p class="app-description">
+            Plataforma integral que ofrece ejercicios de <span class="highlight">Memory, Puzles y Diferencias</span>, junto con dinámicas de <span class="highlight">Nombres y Preguntas</span> para el refuerzo de la memoria. 
+        </p>
+        <p class="app-description">
+            Diseñada originalmente para pacientes con <strong>Alzheimer y Parkinson</strong>, su sistema de personalización de imágenes la hace ideal para <strong>Autismo (TEA) y Necesidades Educativas Especiales</strong>, utilizando el vínculo emocional como motor de motivación y aprendizaje.
+        </p>
+        
+        <a href="#" class="btn" style="margin-top: 10px; padding: 16px 32px; font-size: 1.1rem;">
+            🚀 Próximamente en Play Store
+        </a>
     </div>
+</div>
 
     <section>
         <h2>Contacto Profesional</h2>
         <div class="contact-section">
-            <a href="https://www.linkedin.com/in/TU_USUARIO" class="contact-link">LinkedIn Profile</a>
+            <a href="https://www.linkedin.com/in/tomás-montero-ripoll-786b1059" class="contact-link">Perfil de LinkedIn</a>
             <a href="mailto:tomasmonteror@gmail.com" class="contact-link">tomasmonteror@gmail.com</a>
         </div>
     </section>
