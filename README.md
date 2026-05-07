@@ -32,12 +32,12 @@ El diseño está pensado para el apoyo en terapias de rehabilitación cognitiva 
 ### 3. Encuentra las Diferencias
 - Comparación de imágenes (original y modificada) para potenciar la atención selectiva y el rastreo visual. Incluye un **Editor de Diferencias** integrado.
 
-### 4. Identificación de Nombres 🆕
+### 4. Identificación de Nombres
 - Basado en la **orientación a la realidad**.
 - Permite añadir etiquetas personalizadas sobre las imágenes (ej: nombres de familiares, mascotas o lugares).
 - Ayuda a reforzar el reconocimiento de personas y objetos significativos del entorno cercano del paciente.
 
-### 5. Preguntas y Respuestas 🆕
+### 5. Preguntas y Respuestas
 - Estimulación de la **memoria semántica y razonamiento**.
 - Carga de imágenes con cuestionarios asociados.
 - El usuario responde preguntas sobre la imagen visualizada, trabajando la comprensión y el recuerdo de detalles.
